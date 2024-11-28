@@ -48,7 +48,7 @@ export const me = {
   subtitle: "计算机科学与技术学生",
   tagline: "喜欢创造出有趣的、高质量的页面，不断提升自己",
   bigHeading: {
-    black: "I Crate/enjoy",
+    black: "I create/enjoy",
     blue: "for the web",
   },
   about:
