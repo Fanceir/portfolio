@@ -2,6 +2,8 @@ import { Flex, useColorModeValue } from "@chakra-ui/react";
 import { lazy, Suspense } from "react";
 import { Loader } from "../loading/Loader";
 import FunFact from "./components/FunFact";
+import MusicButton from "./components/MusicButton";
+import CampusActivities from "./components/CampusActivities";
 
 // Lazy Import
 const Navbar = lazy(() => import("../common/Navbar"));
@@ -32,8 +34,13 @@ export const Home = () => {
         <Projects />
         <Skills />
         <Contact />
+        <CampusActivities activities={[
+          { image: '/assets/picture.jpg', description: '组织的招新赛活动'},
+          { image: '/assets/bytedanceactivity.jpg' , description: '字节跳动青训营活动'},
+        ]} />
         <Footer />
       </Flex>
+      <MusicButton />
     </Suspense>
   );
 };

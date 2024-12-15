@@ -171,8 +171,8 @@ export const me = {
       icon: FaZhihu,
       uri: "https://www.zhihu.com/people/81-98-85-74",
       hover: {
-        bg: ["linkedin.500", "linkedin.700"],
-        color: "white",
+        bg: ["zhihu.500", "zhihu.700"],
+        color: "gray.50",
       },
     },
   ],

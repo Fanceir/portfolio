@@ -42,7 +42,7 @@ export const ThemeSwitcher = () => {
         role="button"
         tabIndex={0}
         aria-label="Toggle theme"
-        icon={colorMode === "light" ? <FaSun /> : <FaMoon />}
+        icon={colorMode === "light" ? <FaSun color={iconButtonColor} /> : <FaMoon color={iconButtonColor} />}
         variant={"ghost"}
         color={iconButtonColor}
         _hover={{
@@ -76,7 +76,7 @@ export const ThemeSwitcher = () => {
               role="button"
               tabIndex={0}
               aria-label="Close theme options"
-              icon={<FaTimes />}
+              icon={<FaTimes color={iconButtonColor} />}
               variant={"ghost"}
               color={iconButtonColor}
               _hover={{
@@ -95,11 +95,11 @@ export const ThemeSwitcher = () => {
               aria-label="Toggle theme"
               icon={
                 enableMultiTheme ? (
-                  <FaPaintBrush />
+                  <FaPaintBrush color={useColorModeValue("brand.500", "brand.200")} />
                 ) : colorMode === "light" ? (
-                  <FaSun />
+                  <FaSun color={useColorModeValue("brand.500", "brand.200")} />
                 ) : (
-                  <FaMoon />
+                  <FaMoon color={useColorModeValue("brand.500", "brand.200")} />
                 )
               }
               variant={"ghost"}
@@ -188,9 +188,9 @@ const ThemeOption = ({
             aria-label="Toggle theme"
             icon={
               colorMode === "light" ? (
-                <FaSun tabIndex={-1} />
+                <FaSun tabIndex={-1} color={iconButtonColor} />
               ) : (
-                <FaMoon tabIndex={-1} />
+                <FaMoon tabIndex={-1} color={iconButtonColor} />
               )
             }
             variant={"solid"}
