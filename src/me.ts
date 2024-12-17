@@ -35,7 +35,7 @@ export const multiThemeOptions: ITheme[] = [
 export const enableMultiTheme: boolean = true;
 
 export const me = {
-  name: "Fan Xu",
+  name: "樊旭",
   // Facts are optional
   facts: [
     "你也可以将这个网站作为你的作品集",
@@ -46,7 +46,7 @@ export const me = {
     "对开源充满兴趣，欢迎联系我😊",
   ],
   subtitle: "计算机科学与技术学生",
-  tagline: "喜欢创造出有趣的、高质量的页面，不断提升自己",
+  tagline: "多媒体大作业 樊旭 1033220115 2024/12/17",
   bigHeading: {
     black: "I create/enjoy",
     blue: "for the web",

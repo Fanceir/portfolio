@@ -81,7 +81,7 @@ export const Hero = () => {
             }}
             color={useColorModeValue("brand.600", "gray.100")}
           >
-            Hi, I'm{" "}
+            你好我是{" "}
             <Box
               as={"span"}
               color={useColorModeValue("brand.900", "brand.100")}
