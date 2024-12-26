@@ -97,10 +97,10 @@ export const me = {
       image: "https://www.fanxu.online/img/logo.webp",
     },
     {
-      name: "俱乐部内部博客",
-      description: "ACM算法俱乐部的内部博客",
+      name: "俱乐部内部论坛",
+      description: "ACM算法俱乐部的内部论坛",
       contribution:
-        "使用typescript+react+antd搭建了前端，对接了后端的接口，实现了用户的登录注册，文章的增删改查，评论功能",
+        "使用typescript+react+antd搭建了前端，对接了后端的接口，实现了用户的登录注册，文章的增删改查，评论功能，使用了golang搭建了后端，使用docker搭建了部署环境",
       technologies: ["Go", , "React", "TypeScript", "nginx", "docker"],
       links: [],
     },
