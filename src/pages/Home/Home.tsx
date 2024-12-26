@@ -34,10 +34,15 @@ export const Home = () => {
         <Projects />
         <Skills />
         <Contact />
-        <CampusActivities activities={[
-          { image: '/assets/picture.jpg', description: '组织的招新赛活动'},
-          { image: '/assets/bytedanceactivity.jpg' , description: '字节跳动青训营活动'},
-        ]} />
+        <CampusActivities
+          activities={[
+            { video: "/assets/video.mp4", description: "组织的招新赛活动" },
+            {
+              image: "/assets/bytedanceactivity.jpg",
+              description: "字节跳动青训营活动",
+            },
+          ]}
+        />
         <Footer />
       </Flex>
       <MusicButton />
