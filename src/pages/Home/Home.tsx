@@ -41,6 +41,10 @@ export const Home = () => {
               image: "/assets/bytedanceactivity.jpg",
               description: "字节跳动青训营活动",
             },
+            {
+              image: "/assets/acm.jpg",
+              description: "参加的比赛",
+            },
           ]}
         />
         <Footer />
